@@ -1,0 +1,6 @@
+eamodio.gitlens
+esbenp.prettier-vscode
+ms-kubernetes-tools.vscode-kubernetes-tools
+redhat.vscode-yaml
+rust-lang.rust
+vscodevim.vim
