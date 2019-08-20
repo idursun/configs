@@ -21,3 +21,4 @@ inoremap <C-j> <Esc>
 nnoremap / :action Find<cr>
 " but preserve ideavim search
 nnoremap g/ /
+set ideajoin
