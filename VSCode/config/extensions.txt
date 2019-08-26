@@ -1,6 +1,8 @@
 eamodio.gitlens
 esbenp.prettier-vscode
+JamesBirtles.svelte-vscode
 ms-kubernetes-tools.vscode-kubernetes-tools
 redhat.vscode-yaml
 rust-lang.rust
 vscodevim.vim
+Zignd.html-css-class-completion
