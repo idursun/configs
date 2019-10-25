@@ -1,0 +1,13 @@
+[user]
+	email = ibrahim.dursun@gmail.com
+	name = ibrahim dursun
+	signingKey = 509B3288
+[core]
+	editor = nvim
+[commit]
+	gpgsign = true
+[alias]
+	co = checkout
+	s = status
+	pp = pull --prune
+	gg = log --graph --oneline --decorate

@@ -1,0 +1,15 @@
+ardenivanov.svelte-intellisense
+bradlc.vscode-tailwindcss
+eamodio.gitlens
+esbenp.prettier-vscode
+fivethree.vscode-svelte-snippets
+JamesBirtles.svelte-vscode
+ms-kubernetes-tools.vscode-kubernetes-tools
+ms-vscode.Go
+redhat.vscode-yaml
+rust-lang.rust
+sbrink.elm
+TabNine.tabnine-vscode
+vscode-icons-team.vscode-icons
+vscodevim.vim
+Zignd.html-css-class-completion

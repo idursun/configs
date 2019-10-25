@@ -1,0 +1,90 @@
+{
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.files.openFile"
+            ]
+        },
+        {
+            "before": [
+                "/"
+            ],
+            "commands": [
+                "actions.find"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                ";"
+            ],
+            "commands": [
+                "workbench.action.quickOpenRecent"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "editor.action.goToTypeDefinition"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.statusBarColorControl": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "editor.formatOnSave": true,
+    "go.useLanguageServer": true,
+    "vim.hlsearch": true,
+    "workbench.iconTheme": "vscode-icons",
+    "svelte.plugin.css.enable": false,
+    "svelte.plugin.css.documentSymbols.enable": false,
+    "svelte.plugin.css.diagnostics.enable": false,
+    "svelte.plugin.css.colorPresentations.enable": false,
+    "svelte.plugin.css.completions.enable": false,
+    "svelte.plugin.css.documentColors.enable": false,
+    "elm.analyseEnabled": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "svelte": "svelte"
+    },
+    "git.autofetch": true
+}
