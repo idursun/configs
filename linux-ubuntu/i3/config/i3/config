@@ -145,8 +145,8 @@ workspace_auto_back_and_forth yes
 # focus_follows_mouse no
 
 exec --no-startup-id compton -b --config ~/.config/compton.conf
-exec xautolock -detectsleep -time 3 -locker "i3lock -c 000070" \
-exec_always --no-startup-id /usr/bin/feh --bg-scale '/home/ibrahim/Downloads/639024.jpg'
+exec --no-startup-id /usr/bin/feh --bg-scale '/home/ibrahim/Downloads/639024.jpg'
+exec --no-startup-id xautolock -detectsleep -time 1 -locker "i3lock -c 000000" 
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
