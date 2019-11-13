@@ -1,0 +1,5 @@
+<keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="GotoChangedFile" />
+  <action id="Images.ShowThumbnails" />
+  <action id="RunDashboard.ShowConfigurations" />
+</keymap>

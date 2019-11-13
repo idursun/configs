@@ -1,0 +1,17 @@
+ardenivanov.svelte-intellisense
+austenc.tailwind-docs
+bradlc.vscode-tailwindcss
+eamodio.gitlens
+extr0py.vscode-relative-line-numbers
+fivethree.vscode-svelte-snippets
+JamesBirtles.svelte-vscode
+ms-azuretools.vscode-docker
+ms-kubernetes-tools.vscode-kubernetes-tools
+ms-vscode.Go
+octref.vetur
+redhat.vscode-yaml
+rust-lang.rust
+sbrink.elm
+TabNine.tabnine-vscode
+vscode-icons-team.vscode-icons
+vscodevim.vim

@@ -1,0 +1,98 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.lineNumbers": "relative",
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "alt+j",
+            ],
+            "when": "editorFocus",
+            "after": [
+                "g",
+                "b"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.files.openFile"
+            ]
+        },
+        {
+            "before": [
+                "/"
+            ],
+            "commands": [
+                "actions.find"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                ";"
+            ],
+            "commands": [
+                "workbench.action.quickOpenRecent"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "editor.action.goToTypeDefinition"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.statusBarColorControl": true,
+    "editor.formatOnSave": true,
+    "elm.includeParamsInUserAutocomplete": true,
+    "elm.formatCommand": "/home/ibrahim/.npm-packages/bin//elm-format",
+    "editor.formatOnSaveTimeout": 1000,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    "git.autofetch": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "vim.cursorStylePerMode.insert": "underline",
+    "vim.highlightedyank.enable": true,
+    "vim.visualstar": true,
+    "vim.searchHighlightColor": "yellow",
+    "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+}

@@ -1,0 +1,8 @@
+[commit]
+	gpgsign = true
+[user]
+	name = ibrahim dursun
+	email = ibrahim.dursun@gmail.com
+    signingkey = F37385E19F02FA9A
+[includeIf "gitdir:~/workspace/"]
+  path = .gitconfig-redgate
