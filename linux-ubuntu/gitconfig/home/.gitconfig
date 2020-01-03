@@ -4,5 +4,11 @@
 	name = ibrahim dursun
 	email = ibrahim.dursun@gmail.com
     signingkey = F37385E19F02FA9A
+[url "https://github.com"]
+    insteadOf = "github:"
 [includeIf "gitdir:~/workspace/"]
-  path = .gitconfig-redgate
+    path = .gitconfig-redgate
+[alias]
+	co = checkout
+[core]
+	pager = delta --dark

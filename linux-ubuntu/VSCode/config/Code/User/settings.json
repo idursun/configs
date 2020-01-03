@@ -80,9 +80,10 @@
     ],
     "vim.statusBarColorControl": true,
     "editor.formatOnSave": true,
-    "elm.includeParamsInUserAutocomplete": true,
-    "elm.formatCommand": "/home/ibrahim/.npm-packages/bin//elm-format",
-    "editor.formatOnSaveTimeout": 1000,
+    "[elm]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveTimeout": 20000,
+    },
     "workbench.colorCustomizations": {
         "statusBar.background": "#005f5f",
         "statusBar.noFolderBackground": "#005f5f",

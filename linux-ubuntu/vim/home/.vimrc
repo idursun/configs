@@ -57,7 +57,7 @@ call plug#begin('~/.vim/plugged')
       Plug 'roxma/nvim-yarp'
       Plug 'roxma/vim-hug-neovim-rpc'
   endif
-   Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
+  " Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
 call plug#end()
 
 
@@ -76,10 +76,11 @@ highlight ALEWarning ctermbg=DarkMagenta
 "     \ }
 
 let g:LanguageClient_serverCommands = {
-    \ 'rust': ['rustup', 'run', 'nightly', 'rls']
+    \ 'rust': ['rustup', 'run', 'stable', 'rls']
     \ }
 
-
+let g:lightline = {
+    \ }
 
 set hidden
 
@@ -114,4 +115,4 @@ if filereadable(expand("~/.vimrc_background"))
 endif
 
 " Colors
-colorscheme base16-monokai
+colorscheme base16-dracula
