@@ -6,6 +6,7 @@ elmTooling.elm-ls-vscode
 extr0py.vscode-relative-line-numbers
 fivethree.vscode-svelte-snippets
 JamesBirtles.svelte-vscode
+matklad.ra-lsp
 ms-azuretools.vscode-docker
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-vscode-remote.remote-containers

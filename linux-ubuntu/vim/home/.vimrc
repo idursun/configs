@@ -1,4 +1,5 @@
 let mapleader = "\<Space>"
+let $FZF_DEFAULT_COMMAND = 'rg --files'
 
 set pyxversion=3
 set relativenumber
@@ -65,19 +66,16 @@ let g:rooter_manual_only = 1
 let g:deoplete#enable_at_startup = 1
 let g:LanguageClient_autoStart = 1
 let g:rustfmt_autosave = 1
-let g:ale_set_highlights = 0
+" let g:ale_set_highlights = 0
 
 highlight clear ALEErrorSign
 highlight clear ALEWarningSign
 highlight ALEWarning ctermbg=DarkMagenta
 
-" let g:LanguageClient_serverCommands = {
-"     \ 'rust': ['rustup', 'run', 'nightly', 'rls']
-"     \ }
-
 let g:LanguageClient_serverCommands = {
-    \ 'rust': ['rustup', 'run', 'stable', 'rls']
+    \ 'rust': ['ra_lsp_server']
     \ }
+"    \ 'rust': ['rustup', 'run', 'stable', 'rls']
 
 let g:lightline = {
     \ }
@@ -89,6 +87,7 @@ nnoremap <silent> gd :call LanguageClient_textDocument_definition()<CR>
 nnoremap <silent> <F2> :call LanguageClient_textDocument_rename()<CR>
 nnoremap <leader>s :call LanguageClient_textDocument_documentSymbol()<CR>
 nnoremap <leader>t :call LanguageClient_workspace_symbol()<CR>
+nnoremap <leader>r :call LanguageClient_textDocument_codeAction()<CR>
 nnoremap <leader>; :Buffers<cr>
 nnoremap <leader>f :Files<cr>
 nnoremap <leader>w :w<cr>

@@ -1,6 +1,7 @@
 {
     "workbench.iconTheme": "vscode-icons",
     "editor.lineNumbers": "relative",
+    "rust-analyzer.enableEnhancedTyping": false,
     "vim.hlsearch": true,
     "vim.leader": "<space>",
     "vim.useSystemClipboard": true,
