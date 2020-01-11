@@ -4,6 +4,7 @@
 	signingKey = 509B3288
 [core]
 	editor = nvim
+	pager = delta --dark
 [commit]
 	gpgsign = true
 [alias]
