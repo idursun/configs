@@ -108,8 +108,8 @@ bindsym XF86AudioPrev exec playerctl previous
 
 
 # switch to workspace
-bindsym $mod+1 workspace 1web
-bindsym $mod+2 workspace 2terminal
+bindsym $mod+1 workspace 1terminal
+bindsym $mod+2 workspace 2web
 bindsym $mod+3 workspace 3office
 bindsym $mod+4 workspace 4code
 bindsym $mod+5 workspace 5music
@@ -120,8 +120,8 @@ bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1web
-bindsym $mod+Shift+2 move container to workspace 2terminal
+bindsym $mod+Shift+1 move container to workspace 1terminal
+bindsym $mod+Shift+2 move container to workspace 2web
 bindsym $mod+Shift+3 move container to workspace 3office
 bindsym $mod+Shift+4 move container to workspace 4code
 bindsym $mod+Shift+5 move container to workspace 5music
@@ -149,6 +149,7 @@ exec --no-startup-id /usr/bin/feh --bg-scale '/home/ibrahim/Downloads/639024.jpg
 # exec --no-startup-id xautolock -detectsleep -time 5 -locker "i3lock -c 000000" 
 exec --no-startup-id xscreensaver
 exec --no-startup-id xss-lock -n /usr/share/docs/xss-lock/dim-screen.sh -- i3lock -n -c 000000
+exec --no-startup-id xrandr --output DP-2 --auto --right-of DP-0
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

@@ -96,5 +96,7 @@
     "vim.highlightedyank.enable": true,
     "vim.visualstar": true,
     "vim.searchHighlightColor": "yellow",
-    "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "'Jetbrains Mono', 'DejaVu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.colorTheme": "Dracula",
+    "window.zoomLevel": 1,
 }

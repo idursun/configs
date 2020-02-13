@@ -12,3 +12,4 @@
 	co = checkout
 [core]
 	pager = delta --dark
+	autocrlf = input
