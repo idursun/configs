@@ -4,4 +4,3 @@ export GO111MODULE=on
 export GOPATH=/home/idursun/go
 export npm_config_prefix=~/.node_modules
 export DOTNET_ROOT=/opt/dotnet/
-
