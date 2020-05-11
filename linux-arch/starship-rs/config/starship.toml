@@ -1,0 +1,4 @@
+[kubernetes]
+symbol = "⛵ "
+style = "dimmed green"
+disabled = false
