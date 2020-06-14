@@ -1,5 +1,8 @@
 bradlc.vscode-tailwindcss
 eamodio.gitlens
+esbenp.prettier-vscode
+humao.rest-client
+kumar-harsh.graphql-for-vscode
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-vscode.cpptools
 octref.vetur
