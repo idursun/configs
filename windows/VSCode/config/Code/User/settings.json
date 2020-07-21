@@ -1,0 +1,137 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontSize": 12,
+  "editor.formatOnSave": false,
+  "terminal.integrated.shell.windows": "C:\\Windows\\system32\\cmd.exe",
+  "files.associations": {
+    "*.rs": "rust"
+  },
+  "window.zoomLevel": 1,
+  "git.autofetch": true,
+  "debug.allowBreakpointsEverywhere": true,
+  "editor.multiCursorModifier": "alt",
+  "vim.enableNeovim": true,
+  "vim.neovimPath": "C:\\Users\\Ibrahim.Dursun\\scoop\\shims\\nvim.exe",
+  "vim.easymotion": true,
+  "vim.statusBarColorControl": true,
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.ignorecase": true,
+  "vim.sneak": true,
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-d>": false,
+    "<C-w>": false
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
+    },
+    {
+      "before": [
+        "/"
+      ],
+      "commands": [
+        "actions.find"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        ";"
+      ],
+      "commands": [
+        "workbench.action.quickOpenRecent"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "s"
+      ],
+      "commands": [
+        "workbench.action.gotoSymbol"
+      ]
+    },
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "commands": [
+        "workbench.action.terminal.focus"
+      ]
+    }
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f"
+  },
+  "rust-client.disableRustup": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "debug.node.autoAttach": "off",
+  "terminal.integrated.fontSize": 12,
+  "vim.easymotionMarkerFontSize": "12",
+  "editor.fontFamily": "Jetbrains Mono, Fira Code Retina, Consolas, 'Courier New', monospace",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.enablePreview": false,
+  "git.confirmSync": false,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "rust-analyzer.enableEnhancedTyping": false,
+  "go.useLanguageServer": true,
+  "css.validate": false,
+  "svelte.plugin.css.diagnostics.enable": false,
+  "svelte.plugin.css.enable": false,
+  "svelte.plugin.css.completions.enable": false,
+  "svelte.plugin.css.documentColors.enable": false,
+  "svelte.plugin.css.documentSymbols.enable": false,
+  "elm.analyseEnabled": true,
+  "elm.includeUserFunctionDocumentation": true,
+  "elm.includeParamsInUserAutocomplete": true,
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.includeLanguages": {
+    "svelte": "html"
+  },
+  "vim.highlightedyank.enable": true,
+  "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "Dracula Soft",
+  "vs-kubernetes": {
+    "vs-kubernetes.minikube-path": "Z:\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+  }
+}

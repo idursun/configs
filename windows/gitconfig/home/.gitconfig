@@ -1,0 +1,34 @@
+[user]
+	email = ibrahim.dursun@gmail.com
+	name = ibrahim.dursun
+	signingkey = E6C6E5931E4926BF
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+[alias]
+	st = status
+	co = checkout
+	f = fetch --prune --all
+	pp = pull --prune --all
+	s = status
+	gg = log --graph --abbrev-commit --decorate --format=format:\"%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)\" --all
+[log]
+	decorate = short
+[rerere]
+	enabled = true
+[gui]
+	gcwarning = false
+[core]
+	trustctime = false
+	editor = nvim
+    ignorecase = true
+    excludesfile = ~/.gitignore.global
+	autocrlf = true
+[credential]
+	helper = manager
+[commit]
+    gpgSign = true
+
+[includeIf "gitdir:workspace/"]
+    path = "~/.company.gitconfig"
