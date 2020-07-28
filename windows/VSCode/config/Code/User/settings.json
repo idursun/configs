@@ -1,7 +1,10 @@
 // Place your settings in this file to overwrite the default settings
 {
+  "editor.fontFamily": "Jetbrains Mono, Fira Code Retina, Consolas, 'Courier New', monospace",
   "editor.fontSize": 12,
   "editor.formatOnSave": false,
+  "editor.lineNumbers": "relative",
+  "editor.multiCursorModifier": "alt",
   "terminal.integrated.shell.windows": "C:\\Windows\\system32\\cmd.exe",
   "files.associations": {
     "*.rs": "rust"
@@ -9,18 +12,17 @@
   "window.zoomLevel": 1,
   "git.autofetch": true,
   "debug.allowBreakpointsEverywhere": true,
-  "editor.multiCursorModifier": "alt",
-  "vim.enableNeovim": true,
-  "vim.neovimPath": "C:\\Users\\Ibrahim.Dursun\\scoop\\shims\\nvim.exe",
-  "vim.easymotion": true,
+  "vim.enableNeovim": false,
+  "vim.easymotion": false,
   "vim.statusBarColorControl": true,
   "vim.hlsearch": true,
   "vim.incsearch": true,
   "vim.ignorecase": true,
-  "vim.sneak": true,
+  "vim.sneak": false,
   "vim.useCtrlKeys": true,
-  "vim.useSystemClipboard": true,
+  "vim.useSystemClipboard": false,
   "vim.leader": "<space>",
+  "vim.highlightedyank.enable": true,
   "vim.handleKeys": {
     "<C-d>": false,
     "<C-w>": false
@@ -106,8 +108,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "debug.node.autoAttach": "off",
   "terminal.integrated.fontSize": 12,
-  "vim.easymotionMarkerFontSize": "12",
-  "editor.fontFamily": "Jetbrains Mono, Fira Code Retina, Consolas, 'Courier New', monospace",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.editor.enablePreview": false,
   "git.confirmSync": false,
@@ -128,10 +128,5 @@
   "emmet.includeLanguages": {
     "svelte": "html"
   },
-  "vim.highlightedyank.enable": true,
-  "editor.lineNumbers": "relative",
-  "workbench.colorTheme": "Dracula Soft",
-  "vs-kubernetes": {
-    "vs-kubernetes.minikube-path": "Z:\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
-  }
+  "workbench.colorTheme": "Dracula Soft"
 }
