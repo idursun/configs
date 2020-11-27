@@ -12,5 +12,5 @@
 	s = status
 	pp = pull --prune
 	gg = log --graph --oneline --decorate
-[rebase]
-	autosquash = true
+[pull]
+	ff = only
