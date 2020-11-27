@@ -1,10 +1,11 @@
 bradlc.vscode-tailwindcss
-eamodio.gitlens
-esbenp.prettier-vscode
+dracula-theme.theme-dracula
 humao.rest-client
-kumar-harsh.graphql-for-vscode
+JakeBecker.elixir-ls
+matklad.rust-analyzer
+ms-dotnettools.csharp
 ms-kubernetes-tools.vscode-kubernetes-tools
-ms-vscode.cpptools
 octref.vetur
 redhat.vscode-yaml
+vscode-icons-team.vscode-icons
 vscodevim.vim
