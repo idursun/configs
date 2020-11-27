@@ -35,7 +35,6 @@ call plug#begin('$HOME/plugged/')
  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
-let g:rustfmt_autosave = 1
 let g:rooter_manual_only = 1
 
 nnoremap <leader>; :Buffers<cr>
