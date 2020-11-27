@@ -1,79 +1,13 @@
 {
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[vue]": {
-        "editor.defaultFormatter": "octref.vetur"
-    },
-    "editor.formatOnSave": true,
     "editor.fontFamily": "'Jetbrains Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.fontSize": 15,
-    "window.zoomLevel": 1,
-    "vim.leader": "<space>",
-    "vim.handleKeys": {
-        "<C-d>": false,
-        "<C-j>": false
-    },
-    "vim.normalModeKeyBindings": [
-        {
-            "before": [
-                "K"
-            ],
-            "commands": [
-                "editor.action.showHover"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "f"
-            ],
-            "commands": [
-                "workbench.action.files.openFile"
-            ]
-        },
-        {
-            "before": [
-                "/"
-            ],
-            "commands": [
-                "actions.find"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                ";"
-            ],
-            "commands": [
-                "workbench.action.quickOpenRecent"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "s"
-            ],
-            "commands": [
-                "workbench.action.gotoSymbol"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "t"
-            ],
-            "commands": [
-                "editor.action.goToTypeDefinition"
-            ]
-        }
-    ],
-    "vim.statusBarColorControl": true,
-    "vim.hlsearch": true,
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#005f5f",
-        "statusBar.noFolderBackground": "#005f5f",
-        "statusBar.debuggingBackground": "#005f5f"
-    },
-    "diffEditor.ignoreTrimWhitespace": false
+    "css.completion.completePropertyWithSemicolon": false,
+    "css.lint.emptyRules": "ignore",
+    "css.validate": false,
+    "window.zoomLevel": 0,
+    "vim.enableNeovim": true,
+    "vim.highlightedyank.enable": true,
+    "vim.leader": " ",
+    "vim.vimrc.enable": true,
+    "workbench.colorTheme": "Dracula Soft",
+    "workbench.iconTheme": "vscode-icons"
 }
