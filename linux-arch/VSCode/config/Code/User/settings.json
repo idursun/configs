@@ -1,13 +1,148 @@
+// Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "'Jetbrains Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "css.completion.completePropertyWithSemicolon": false,
-    "css.lint.emptyRules": "ignore",
-    "css.validate": false,
-    "window.zoomLevel": 0,
-    "vim.enableNeovim": true,
-    "vim.highlightedyank.enable": true,
-    "vim.leader": " ",
-    "vim.vimrc.enable": true,
-    "workbench.colorTheme": "Dracula Soft",
-    "workbench.iconTheme": "vscode-icons"
+"terminal.integrated.fontSize": 12,
+"[Log]": {
+  "editor.fontSize": 14
+},
+  "editor.formatOnSave": true,
+  "[yaml]": {
+    "editor.formatOnSave": true
+  },
+  "[rust]": {
+    "editor.formatOnSave": true
+  },
+  "[elixir]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls",
+    "editor.formatOnSave": true
+  },
+  "files.associations": {
+    "*.rs": "rust",
+    "*.heex": "html-eex"
+  },
+  "window.zoomLevel": 1.3,
+  "git.autofetch": false,
+  "debug.allowBreakpointsEverywhere": true,
+  "editor.multiCursorModifier": "alt",
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.ignorecase": true,
+  "vim.sneak": false,
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": false,
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-d>": false,
+    "<C-w>": false
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
+    },
+    {
+      "before": [
+        "/"
+      ],
+      "commands": [
+        "actions.find"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        ";"
+      ],
+      "commands": [
+        "workbench.action.quickOpenRecent"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "s"
+      ],
+      "commands": [
+        "workbench.action.gotoSymbol"
+      ]
+    },
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "commands": [
+        "workbench.action.terminal.focus"
+      ]
+    }
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "Jetbrains Mono, Fira Code Retina, Consolas, 'Courier New', monospace",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.enablePreview": false,
+  "git.confirmSync": false,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "css.validate": false,
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.includeLanguages": {
+    "svelte": "html"
+  },
+  "vim.highlightedyank.enable": true,
+  "editor.lineNumbers": "relative",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "tailwindCSS.includeLanguages": {
+    "HTML (Embedded Elixir)": "html"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontSize": 13,
+  "workbench.colorTheme": "Dracula Soft",
+  "zigLanguageClient.path": "/usr/bin/zls",
+  "editor.inlineSuggest.enabled": true,
+  "extensions.ignoreRecommendations": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  }
 }

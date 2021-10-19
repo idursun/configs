@@ -2,6 +2,7 @@
 export ZSH="/home/idursun/.oh-my-zsh"
 export PATH="$HOME/.node_modules/bin:$HOME/bin:$HOME/.linkerd2/bin:$HOME/dapr:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export _JAVA_AWT_WM_NONREPARENTING=1
 
 DISABLE_UPDATE_PROMPT="true"
 plugins=(
@@ -40,5 +41,5 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 autoload -U +X compinit && compinit
-source <(kubectl completion zsh)
 
+source /home/idursun/.config/broot/launcher/bash/br
